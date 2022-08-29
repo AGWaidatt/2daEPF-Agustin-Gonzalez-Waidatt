@@ -1,0 +1,163 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>Mamba Gim - Mind Temple</title>
+    <link rel="shortcut icon" href="./imagenes/Logo.jpg">
+    <link rel="stylesheet" href="./css/estilos.css">
+    <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"
+    />
+    <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet" media="all">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Koulen&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@500&display=swap" rel="stylesheet">
+    
+
+    </head>
+
+    <body>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+
+
+        <nav class="header">
+            <div class="header__img">
+                <a href="index.html">
+                    <img src="./imagenes/Logo.jpg" alt="logo" height="70px">
+    
+                </a>
+                <a class="asas animate__animated animate__heartBeat" href="https://www.instagram.com/agus.waidatt/">
+                    <img src="./imagenes/logoigblanco.png" alt="botonignegro" height="25px" >
+                </a>
+                <a href="index.html">
+                    <h1>MAMBA<span>GIM</span></h1>
+                </a>
+            </div>
+            
+            <ul class="header__links">
+                <li><a href="registrarse.html" class="hvr-underline-from-center">Registrarse</a></li>
+                <li><a href="iniciarsesion.html" class="hvr-underline-from-center">Iniciar Sesion</a></li>
+                <li><a href="nosotros.html" class="hvr-underline-from-center">Nosotros</a></li>
+                <li><a id="bthorario" href="./index.html#sectabla" class="hvr-underline-from-center">Horarios</a></li>
+    
+            </ul>
+    
+    
+    
+    
+    
+        </nav>
+    
+    
+        
+        <div class="eheader"></div>
+        <nav  class="navbar navbar-dark bg-dark fixed-top" >
+            <div class="container-fluid" style="height: 150px;">
+                <a class="navbar-brand" href="./index.html">
+                    <img src="./imagenes/Logo.jpg" alt="logo" height="70px" style="margin-left: 20px;">
+                </a>
+                <a class="navbar-brand" href="./index.html">
+                    <h1>MAMBA<span style="color: #F6C90E;">GIM</span></h1> 
+                </a>
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasNavbar" aria-controls="offcanvasNavbar" style="margin-right: 20px;">
+                    <span class="navbar-toggler-icon" ></span>
+                </button>
+              <div class="offcanvas offcanvas-end" tabindex="-1" id="offcanvasNavbar" aria-labelledby="offcanvasNavbarLabel">
+                <div class="offcanvas-header">
+                  <h5 class="offcanvas-title" id="offcanvasNavbarLabel">Offcanvas</h5>
+                  <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close" style="margin-right: 20px;"></button>
+                </div>
+                <div class="offcanvas-body">
+                  <ul class="navbar-nav justify-content-end flex-grow-1 pe-3">
+                    <li class="nav-item" >
+                      <a class="nav-link" aria-current="page" href="#" style="margin-left: 20px;">Iniciar Sesion</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="./registrarse.html" style="margin-left: 20px;">Registrarse</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./nosotros.html" style="margin-left: 20px;">Nosotros</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="./index.html#sectabla" style="margin-left: 20px;">Horarios</a>
+                    </li>
+                  </ul>
+                  
+                </div>
+              </div>
+            </div>
+        </nav>
+    
+    
+
+        <section class="iniciosesion">
+            <section class="datos1"> 
+                <form>
+                    <div id="inputdatos" class="mb-3">
+                      <label for="exampleInputEmail1" class="form-label">USUARIO</label>
+                      <input id="cajainput" type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
+                      
+                    </div>
+                    <div id="inputdatos" class="mb-3">
+                      <label for="exampleInputPassword1" class="form-label">CONTRASEÑA</label>
+                      <input id="cajainput" type="password" class="form-control" id="exampleInputPassword1">
+                        <a href="">
+                            <div id="emailHelp" class="form-text">Olvide mi contraseña</div>
+                        </a>    
+                    </div>
+                    <div id="inputbutton" class="mb-3 form-check">
+                      <input type="checkbox" class="form-check-input" id="exampleCheck1">
+                      <label class="form-check-label" for="exampleCheck1">Recordar mi usuario</label>
+                    </div>
+                    <div id="buttonis">
+                        <button   type="submit" class="btn btn-primary">Iniciar Sesion</button>
+                    </div>
+                </form>
+
+
+
+
+            </section>
+
+        </section>
+        
+
+
+
+        <footer>
+            <section class="footer__section">
+                <p>Copyright © 1999-2022 MambaGim S.R.L.</p>
+                <p>Bv. Chacabuco 300, Cordoba, Cordoba</p>
+            </section>
+            <section class="instapic ">
+                <a href="https://www.instagram.com/agus.waidatt/">
+                    <img class="lastPic" src="./imagenes/logonegroig.png"  alt="logoinstagramnegro" width="50px" height="50px">
+                </a>
+            </section>
+        </footer>
+
+
+
+
+
+
+
+    </body>
+
+
+
+</html>
