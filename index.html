@@ -384,6 +384,7 @@
 
     <section class="cuotas">
         <div>
+            
             <button onclick="añadirCuota()" class="btn btn-primary">
                 agregar cuotas
             </button>
@@ -396,6 +397,24 @@
             </div>
 
         </div>
+
+        <div class="contador">
+            <div id="dataAgregada">
+                <div id="">
+                    
+                </div>
+            </div>
+
+        </div>
+        <form action="" name="formulario" onsubmit="enviarDato(); return false">
+            <input type="text" name="dato">
+            <button onsubmit="" type="submit">Cargar cuotas</button>
+            <button onclick="recuperarDato(); return false" type="button">Recuperar datos</button>
+        </form>
+        <button class="getApiData" onclick="getData()">
+            morite mario
+        </button>
+
     </section>
     <footer>
         <section class="footer__section">
